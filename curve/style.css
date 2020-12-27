@@ -278,10 +278,12 @@ svg {
   color: var(--ui-color-brand);
 }
 
-.ui-component-button-big {
-  padding: 1rem 1rem 1.125rem;
-  width: 100%;
-}
+.ui-component-button-big,
+.ui-component-button-normal { padding: 1rem 1rem 1.125rem; }
+
+.ui-component-button-big { width: 100%; }
+
+.ui-component-button-normal { width: fit-content; }
 
 /*--------------------------------------------------------------
 |
@@ -906,6 +908,23 @@ div label[for=ui-component-toggle__yearly] {
   .ui-layout-grid-3 { grid-template-columns: repeat(3, 1fr); }
 
   .ui-layout-grid-3 div:nth-of-type(3) { position: static; }
+
+  /*------------------------------------------------------------
+  SECTION
+  ------------------------------------------------------------*/
+
+  /*------------------------------------------------------------
+  |
+  | HERO
+  |
+  ------------------------------------------------------------*/
+
+  .ui-section-hero .ui-component-cta {
+    align-items: center;
+    column-gap: var(--ui-gap-cta);
+    flex-direction: row;
+    justify-content: start;
+  }
 
 }
 
