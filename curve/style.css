@@ -302,7 +302,7 @@ input[name="toggle"] { display: none; }
   line-height: 1;
   margin: var(--ui-gap-pricing) auto .5rem;
   padding: .25rem;
-  width: fit-content;
+  width: max-content;
 }
 
 .ui-component-toggle--label {
