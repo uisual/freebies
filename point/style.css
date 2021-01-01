@@ -320,7 +320,7 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: fit-content;
+  width: max-content;
 }
 
 /* CONTENT */
@@ -433,6 +433,16 @@ button {
     padding-bottom: 2rem;
     padding-top: 2rem;
   }
+
+  /*------------------------------------------------------------
+  |
+  | HERO
+  |
+  ------------------------------------------------------------*/
+
+  /* LOGO */
+
+  .ui-section-hero--logo svg { width: 4rem; }
 
   /*------------------------------------------------------------
   |
