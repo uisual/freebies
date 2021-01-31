@@ -18,15 +18,7 @@ Yes, we designed our templates responsively (320px, 768px, 1024px, and 1200px).
 
 #### Can I sell products with your templates?
 
-Yes, you can sell apps, ebooks, extensions, etc. As long as you're not selling our templates.
-
-#### Can I use your templates for client's project?
-
-No, sorry.
-
-#### Can I convert your templates to WordPress, React, etc?
-
-Sure, you can. As long as you're not republishing, redistributing, or reselling them.
+Yes, you can sell apps, ebooks, extensions, etc.
 
 #### Do I need to credit you?
 
